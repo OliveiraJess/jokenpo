@@ -1,10 +1,12 @@
 :root {
     /*cores*/
-    --azul    : #3498db;
-    --branco  : #fff;
-    --vermelho: #ff7675;
+    --azul       : #3498db;
+    --cinza      : #2d3436;
+    --cinza-claro: #636e72;
+    --branco     : #fff;
+    --vermelho   : #ff7675;
     /*fonte*/
-    --fonte   : Helvetica Neue, Helvetica, Arial;
+    --fonte      : Helvetica Neue, Helvetica, Arial;
 }
 
 /*padrao*/
@@ -23,6 +25,12 @@ li {
 }
 
 /* #principal {} */
+
+#titulo {
+    color     : var(--cinza);
+    margin    : 20px 0;
+    text-align: center;
+}
 
 #placar {
     align-items    : center;
@@ -87,8 +95,8 @@ li {
 }
 
 #versus {
-    background-color: green;
-
+    font-size: 80px;
+    padding  : 0 40px;
 }
 
 #computador {
@@ -99,4 +107,12 @@ li {
     right: 20px;
 }
 
-/* #mensagem {} */
+#mensagem {
+    background-color: var(--cinza-claro);
+    border-radius   : 5px;
+    color           : var(--branco);
+    font-size       : 24px;
+    margin          : 20px 0;
+    padding         : 20px;
+    text-align      : center;
+}
