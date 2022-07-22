@@ -4,4 +4,5 @@
 <img src="https://github.com/OliveiraJess/jokenpo/blob/main/img/papel.png" alt="papel" />
 <img src="https://github.com/OliveiraJess/jokenpo/blob/main/img/tesoura.png" alt="tesoura" />
 </p>
-Jokenpo com Javascript. Pedra, Papel, Tesoura!
+
+## PEDRA, PAPEL, TESOURA!!
