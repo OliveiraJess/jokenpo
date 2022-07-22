@@ -1,0 +1,95 @@
+:root {
+    --vermelho: #ff7675;
+    --azul    : #3498db;
+    --branco  : #fff;
+
+    --fonte: Helvetica Neue, Helvetica, Arial;
+}
+
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: var(--fonte);
+    font-weight: 400;
+    cursor     : default;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+
+/* #principal {} */
+
+#placar {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+}
+
+#jogador {
+    background-color: var(--azul);
+}
+
+#jogador-pontos {
+    right: 20px;
+}
+
+#jogador #jogador-escolha {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#jogador #jogador-escolha li {
+    display: inline;
+    padding: 0 15px;
+}
+
+#jogador #jogador-escolha a {
+    opacity: 0.2;
+}
+
+#jogador #jogador-escolha a:hover {
+    opacity: 1;
+}
+
+#jogador #jogador-escolha img {
+    max-width: 80px;
+}
+
+#jogador,
+#computador {
+    flex-grow    : 1;
+    color        : var(--branco);
+    border-radius: 5px;
+    padding      : 20px;
+    position: relative;
+}
+
+#jogador-nome,
+#computador-nome {
+    font-size: 24px;
+}
+
+#jogador-pontos,
+#computador-pontos {
+    font-size: 52px;
+    position : absolute;
+    top      : 8px;
+}
+
+#versus {
+    background-color: green;
+
+}
+
+#computador {
+    background-color: var(--vermelho);
+
+
+}
+
+/* #mensagem {} */
