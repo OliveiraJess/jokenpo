@@ -38,17 +38,17 @@ li {
     right: 20px;
 }
 
-#jogador #jogador-escolha {
+#jogador #jogador-escolha, #computador #computador-escolha {
     text-align: center;
     margin-top: 30px;
 }
 
-#jogador #jogador-escolha li {
+#jogador #jogador-escolha li, #computador #computador-escolha li {
     display: inline;
     padding: 0 15px;
 }
 
-#jogador #jogador-escolha a {
+#jogador #jogador-escolha a, #computador #computador-escolha a {
     opacity: 0.2;
 }
 
@@ -56,7 +56,7 @@ li {
     opacity: 1;
 }
 
-#jogador #jogador-escolha img {
+#jogador #jogador-escolha img, #computador #computador-escolha img {
     max-width: 80px;
 }
 
@@ -88,8 +88,10 @@ li {
 
 #computador {
     background-color: var(--vermelho);
+}
 
-
+#computador-pontos {
+    right: 20px;
 }
 
 /* #mensagem {} */
