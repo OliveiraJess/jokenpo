@@ -64,7 +64,9 @@ li {
     opacity: 0.2;
 }
 
-#jogador #jogador-escolha a:hover {
+#jogador #jogador-escolha a:hover,
+#jogador #jogador-escolha a.selecionado,
+#computador #computador-escolha a.selecionado {
     opacity: 1;
 }
 
