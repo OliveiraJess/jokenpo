@@ -99,7 +99,6 @@ function somarPontoComputador() {
 
 //funçao jogar
 function jogar(escolha) {
-    mensagem('Bem-vindo ' + jogadorNome + ' está preparado? Escolha uma opção acima...');
     //escolha usuario
     jogadorEscolha = escolha;
     selecionar('jogador', jogadorEscolha);
@@ -127,17 +126,16 @@ function jogar(escolha) {
         deselecionar('jogador', jogadorEscolha);
         deselecionar('computador', computadorEscolha);
         mensagem(jogadorNome + ' escolha uma opção...');
-    }, 3500);
+    }, 2500);
 
 }
 
-document.getElementById('jogador-escolha-1').onclick = function () { jogar(1); };
-document.getElementById('jogador-escolha-2').onclick = function () { jogar(2); };
-document.getElementById('jogador-escolha-3').onclick = function () { jogar(3); };
-
+document.getElementById('jogador-escolha-1').onclick = function (){ jogar(1); };
+document.getElementById('jogador-escolha-2').onclick = function (){ jogar(2); };
+document.getElementById('jogador-escolha-3').onclick = function (){ jogar(3); };
 
 jogadorNome = prompt("Qual é o seu nome?");
-definirJogadorNome(jogadorNome);
+
 
 mensagem('Bem-vindo ' + jogadorNome + ' está preparado? Escolha uma opção acima...');
-
+definirJogadorNome(jogadorNome);
