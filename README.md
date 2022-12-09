@@ -1,4 +1,4 @@
-<h1  align="center">Jogo Pedra, Papel, Tesoura</h1>
+<h1  align="center">Pedra, Papel, Tesoura</h1>
 
 <div align="center">
 <img src="https://img.shields.io/static/v1?label=Projeto&message=Javascript&color=F1E05A&style=for-the-badge&logo=ghost"/>
